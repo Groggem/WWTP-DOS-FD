@@ -26,8 +26,9 @@ An automated anomaly detection and evaluation pipeline built in Python for ident
 ### Prerequisites
 
 Install the required dependencies:
-  ```bash
-    pip install pandas numpy scikit-learn ruptures scipy matplotlib seaborn joblib
+```bash
+pip install pandas numpy scikit-learn ruptures scipy matplotlib seaborn joblib
+```
 Data Requirements
 The script expects the following CSV files in the working directory:
 
@@ -38,6 +39,7 @@ The script expects the following CSV files in the working directory:
 Execution
 Run the main analysis script:
 
-  ```bash
-  python Test.py
+```bash
+python Test.py
+```
 Outputs will include evaluation metrics printed to the console, generated visualization .png charts, processed predictions (all_predictions.csv), and the serialized Isolation Forest model (isolation_forest_model.pkl).
