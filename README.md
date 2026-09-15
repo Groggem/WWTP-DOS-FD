@@ -32,9 +32,9 @@ pip install pandas numpy scikit-learn ruptures scipy matplotlib seaborn joblib
 Data Requirements
 The script expects the following CSV files in the working directory:
 
--bias_fault.csv (Faulty sensor telemetry dataset)
+- bias_fault.csv (Faulty sensor telemetry dataset)
 
--sensor_without_faults.csv (Baseline normal operating telemetry dataset)
+- sensor_without_faults.csv (Baseline normal operating telemetry dataset)
 
 Execution
 Run the main analysis script:
